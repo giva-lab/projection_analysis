@@ -65,7 +65,7 @@ cd inverse_projection_testing
 2. Install project dependencies using Poetry:
 
 ```bash
-poetry install
+poetry install --no-root
 ```
 
 This will automatically create a virtual environment and install all required packages.
