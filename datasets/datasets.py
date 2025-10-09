@@ -901,7 +901,7 @@ def linnerud():
     return X_normalized, y
 
 
-def selected_unsupervised_dt(dataset, a, b, c, freq, n_pts):
+def selected_unsupervised_dt(dataset, a = None, b = None, c = None, freq=None, n_pts = None):
 
     if dataset == "helix":
         
